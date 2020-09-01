@@ -1,10 +1,10 @@
-#Asks the user for Input of what shape they'd like to Calculate the volume of
+#Asks the user for Input of what shape they would like to Calculate the volume of
 shapeSelected = raw_input("Select Shape to Calculate Volume Of:")
 #List of Shapes available currently to calculate volume of
 shapeSelection = ["Sphere","Pyramid","Cone","Ellipsoid","Cylinder","Torus"]
 #Mathematical Pi constant used in various calculations
 piConstant = 3.1415926
-#If statement which checks to see if shape input is within the loist of shapes available,
+#If statement which checks to see if shape input is within the list of shapes available,
 #Otherwise states that shape isn't recognized, and for the program to be run again. 
 if shapeSelected in shapeSelection:
     print("Shape Confirmed")
