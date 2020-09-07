@@ -24,8 +24,7 @@ if shapeSelected in shapeSelection:
         #Mathematical Formula for Right Rectangular Pyramid Volume
         Volume = (1.0/3.0) * length * width * height
         print(Volume)
-        
-    
+
     elif shapeSelected == "Cone":
         #User Input for needed variables
         radius = raw_input("Insert radius of Cone Base to Calculate")
@@ -43,7 +42,6 @@ if shapeSelected in shapeSelection:
         Volume = (4.0/3.0) * piConstant * axisA * axisB * axisC
         print(Volume)
         
-
     elif shapeSelected == "Cylinder":
         #User Input for needed variables
         radius = raw_input("Insert radius of Cylinder Base to Calculate")
@@ -59,7 +57,6 @@ if shapeSelected in shapeSelection:
         #Mathematical Formula for Torus Volume
         Volume = 2.0 * (piConstant ** 2) * (r ** 2) * R
         print(Volume)
-
 
     else:
         #Code for built-in redundancy in case the user 
