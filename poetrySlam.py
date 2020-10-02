@@ -21,7 +21,6 @@ def lines_printed_random(lines_list):
     for i in range(len(lines_list)):
         print(str(counter) + " " + lines_list[random.randint(0, len(lines_list) - 1)])
         counter += 1
-
 #lines_printed_random(get_file_lines("The-Jumblies.txt"))
 
 def lines_printed_custom(lines_list):
@@ -33,4 +32,4 @@ def lines_printed_custom(lines_list):
         print(str(counter) + " " + line)
         counter += 1
 
-#lines_printed_custom(get_file_lines("The-Jumblies.txt"))
+lines_printed_custom(get_file_lines("The-Jumblies.txt"))
